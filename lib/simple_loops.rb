@@ -29,4 +29,5 @@ def return_string_array(array = ['hello', 'there', 'general', 'kenobi'])
     return new_array.push(array[counter].to_s)
     counter += 1 
   end
+  new_array
 end
